@@ -1,0 +1,11 @@
+<!doctype html>
+
+<body>
+    <h1>My Articles</h1>
+
+    <% @articles.each do |article| %>
+    <ul>
+        <li> Title: <%= article.title %> </li>
+        <% end %>
+    </ul>
+</body>
